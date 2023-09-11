@@ -651,6 +651,19 @@ body {
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  padding-left: 38px;
+}
+/* .modal-window-icon-user-name {
+  padding-top: 11px;
+} */
+.container-input {
+  position: relative;
+}
+.icon-modal {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .modal-window-label:focus-within {
   border-color: #4d5ae5;
