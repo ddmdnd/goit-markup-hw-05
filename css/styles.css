@@ -666,9 +666,6 @@ body {
 .input-user-name:focus + .icon-modal {
   fill: #4d5ae5;
 }
-/* .modal-window-icon-user-name {
-  padding-top: 11px;
-} */
 .container-input {
   position: relative;
 }
