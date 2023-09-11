@@ -619,6 +619,10 @@ body {
   right: 24px;
   top: 24px;
   fill: #2e2f42;
+  border: none;
+}
+.close-btn:active {
+  background-color: var(--cloud);
 }
 .title {
   margin-top: 48px;
