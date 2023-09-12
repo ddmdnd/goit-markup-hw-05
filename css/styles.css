@@ -751,6 +751,7 @@ body {
 .input-user-name:focus {
   outline: transparent;
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .input-user-name:focus + .icon-modal {
   fill: #4d5ae5;
