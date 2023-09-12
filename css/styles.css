@@ -507,10 +507,6 @@ body {
   padding: 100px 0;
   background-color: var(--navyblue);
 }
-/* .footer-container {
-  flex-direction: column;
-  flex-shrink: 0;
-} */
 .footer-container-logo {
   margin-right: 120px;
 }
