@@ -679,10 +679,6 @@ body {
 .modal-window-label:focus-within {
   color: #4d5ae5;
 }
-/* .container-input:focus-within {
-  border-color: #4d5ae5;
-  color: #4d5ae5;
-} */
 .modal-window-label {
   color: #8e8f99;
   font-family: Roboto;
