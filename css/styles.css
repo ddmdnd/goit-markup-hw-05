@@ -694,6 +694,7 @@ body {
 .close-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .close-btn:active {
@@ -702,10 +703,10 @@ body {
 .close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-btn-icon:hover,
+/* .close-btn-icon:hover,
 .close-btn-icon:focus {
   fill: #ffffff;
-}
+} */
 .title {
   margin-top: 48px;
   margin-bottom: 16px;
