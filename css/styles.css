@@ -699,8 +699,6 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-/* .close-btn-icon {
-} */
 .modal-window-form {
   display: flex;
   flex-direction: column;
