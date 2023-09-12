@@ -420,8 +420,6 @@ body {
 .portfolio-section-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
-  /* justify-content: flex-start; */
   column-gap: 24px;
   row-gap: 48px;
 }
