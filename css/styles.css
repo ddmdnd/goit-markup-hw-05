@@ -572,7 +572,7 @@ body {
 .footer-social-link-item:focus {
   background-color: #31d0aa;
 }
-/* subscribe-conteiner */
+/* ======subscribe-conteiner ========*/
 
 .subscribe-conteiner {
   margin-left: 80px;
@@ -590,6 +590,7 @@ body {
 }
 .form-subscribe {
   display: flex;
+  gap: 24px;
 }
 .button-subscribe {
   width: 185px;
@@ -610,7 +611,6 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-  margin-left: 24px;
   margin-right: 159px;
 }
 .input-email {
