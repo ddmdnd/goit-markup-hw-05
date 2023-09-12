@@ -776,6 +776,9 @@ body {
   height: 120px;
   margin-top: 4px;
 }
+.modal-window-conteiner-comment-lable {
+  margin-bottom: 16px;
+}
 .checkbox-conteiner {
   display: flex;
   gap: 8px;
