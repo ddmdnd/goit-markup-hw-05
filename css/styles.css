@@ -796,6 +796,7 @@ body {
 .button-subscribe:hover,
 .button-subscribe:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-textarea-comment {
