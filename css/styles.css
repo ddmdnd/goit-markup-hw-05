@@ -551,9 +551,9 @@ body {
   display: flex;
   align-items: baseline;
 }
-.footer-container-social {
-  margin-left: 120px;
-}
+/* .footer-container-social {
+  margin-left: 0px;
+} */
 
 .footer-container-social-list {
   display: flex;
@@ -583,6 +583,73 @@ body {
 .footer-social-link-item:focus {
   background-color: #31d0aa;
 }
+/* subscribe-conteiner */
+
+.subscribe-conteiner {
+  margin-left: 80px;
+}
+
+.subscribe-title {
+  color: #fff;
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.form-subscribe {
+  display: flex;
+}
+.button-subscribe {
+  width: 185px;
+  height: 40px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  /* Button Text */
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  margin-left: 24px;
+  margin-right: 159px;
+}
+.input-email {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: #2e2f42;
+  outline: transparent;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04px;
+  padding-left: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.input-email::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04px;
+}
+
 /* <!================ FOOTER SECTION =================> */
 
 /* <!================= modal window =======================!> */
