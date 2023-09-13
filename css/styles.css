@@ -807,8 +807,6 @@ body {
   fill: transparent;
   cursor: pointer;
 }
-/* .checkbox-agree-icon {
-} */
 .checkbox-input:checked
   + .checkbox-privacy-policy
   > .checkbox-agree-mini-container {
