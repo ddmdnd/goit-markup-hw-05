@@ -727,6 +727,9 @@ body {
 .modal-window-conteiner-input-lable {
   margin-bottom: 8px;
 }
+.modal-window-conteiner-comment-lable {
+  margin-bottom: 16px;
+}
 .modal-window-label:focus-within {
   color: #4d5ae5;
 }
