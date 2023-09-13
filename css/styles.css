@@ -751,7 +751,6 @@ body {
   outline: transparent;
 }
 .input-user-name:focus {
-  outline: transparent;
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
