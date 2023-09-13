@@ -841,6 +841,7 @@ body {
   > .checkbox-agree-mini-container {
   background-color: #404bbf;
   fill: white;
+  border: none;
 }
 .checkbox-input:focus
   + .checkbox-privacy-policy
