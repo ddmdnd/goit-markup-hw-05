@@ -848,6 +848,9 @@ body {
   > .checkbox-agree-mini-container {
   border-color: #404bbf;
 }
+.privacy-policy-link {
+  color: #4d5ae5;
+}
 .button-send {
   width: 169px;
   height: 56px;
@@ -862,7 +865,6 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
