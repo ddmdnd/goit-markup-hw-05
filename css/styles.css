@@ -640,6 +640,7 @@ body {
 /* <!================ FOOTER SECTION =================> */
 
 /* <!================= modal window =======================!> */
+
 .is-open {
   opacity: 1;
   visibility: hidden;
