@@ -721,9 +721,10 @@ body {
   flex-direction: column;
   gap: 8px;
 }
-.modal-window-conteiner-input-lable {
+/* .modal-window-conteiner-input-lable {
   margin-bottom: 8px;
-}
+  margin-top: 0;
+} */
 .modal-window-label:focus-within {
   color: #4d5ae5;
 }
@@ -739,7 +740,6 @@ body {
 }
 .input-user-name {
   width: 100%;
-  margin-top: 4px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -776,12 +776,13 @@ body {
   height: 120px;
   margin-top: 4px;
 }
-.modal-window-conteiner-comment-lable {
+/* .modal-window-conteiner-comment-lable {
   margin-bottom: 16px;
-}
+} */
 .checkbox-conteiner {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+  flex-direction: column;
 }
 .checkbox-privacy-policy {
   color: #8e8f99;
@@ -790,6 +791,34 @@ body {
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
+  /* margin-bottom: 24px; */
+}
+.checkbox-agree-mini-container {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  cursor: pointer;
+}
+/* .checkbox-agree-icon {
+} */
+.checkbox-input:checked
+  + .checkbox-privacy-policy
+  > .checkbox-agree-mini-container {
+  background-color: #404bbf;
+  fill: white;
+}
+.checkbox-input:focus
+  + .checkbox-privacy-policy
+  > .checkbox-agree-mini-container {
+  border-color: #404bbf;
 }
 .button-send {
   width: 169px;
@@ -798,6 +827,7 @@ body {
   margin-right: auto;
   padding: 16px 32px;
   border-radius: 4px;
+  border: none;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
@@ -810,7 +840,11 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.button-send:hover,
+.button-send:focus {
+  background-color: #404bbf;
+  outline: transparent;
+}
 .button-subscribe:hover,
 .button-subscribe:focus {
   background-color: #404bbf;
@@ -836,18 +870,6 @@ body {
 .modal-textarea-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-.checkbox-argee-mini-container {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
-.checkbox-input:checked {
-}
+
+/* .checkbox-input:checked {
+} */
