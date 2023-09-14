@@ -840,9 +840,14 @@ body {
   + .checkbox-privacy-policy
   > .checkbox-agree-mini-container {
   background-color: #404bbf;
-  fill: #f4f4fd;
   border: none;
 }
+.checkbox-input[type="checkbox"]:checked
+  + .checkbox-privacy-policy
+  > .checkbox-agree-mini-container {
+  fill: #f4f4fd;
+}
+
 /* .checkbox-privacy-policy:checked
   + .checkbox-agree-mini-container
   > .heckbox-agree-icon {
