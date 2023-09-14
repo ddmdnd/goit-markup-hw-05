@@ -838,7 +838,7 @@ body {
   fill: transparent;
   cursor: pointer;
 }
-.checkbox-input:checked
+.checkbox-input[type="checkbox"]:checked
   + .checkbox-privacy-policy
   > .checkbox-agree-mini-container {
   background-color: #404bbf;
