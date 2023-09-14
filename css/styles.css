@@ -779,6 +779,7 @@ body {
   fill: #4d5ae5;
 } */
 .modal-textarea-comment {
+  display: block;
   width: 360px;
   height: 120px;
   margin-top: 4px;
@@ -815,6 +816,7 @@ body {
   flex-direction: column;
 }
 .checkbox-privacy-policy {
+  display: block;
   color: #8e8f99;
   font-family: Roboto;
   font-size: 12px;
