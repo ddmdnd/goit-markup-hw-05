@@ -841,14 +841,14 @@ body {
   + .checkbox-privacy-policy
   > .checkbox-agree-mini-container {
   background-color: #404bbf;
-  fill: white;
+  fill: #f4f4fd;
   border: none;
 }
-.checkbox-input:focus
+/* .checkbox-input:focus
   + .checkbox-privacy-policy
   > .checkbox-agree-mini-container {
   border-color: #404bbf;
-}
+} */
 .privacy-policy-link {
   color: #4d5ae5;
 }
