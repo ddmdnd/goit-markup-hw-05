@@ -756,7 +756,6 @@ body {
 }
 .input-user-name:focus {
   border-color: #4d5ae5;
-  fill: #4d5ae5;
 }
 .input-user-name:focus + .icon-modal {
   fill: #4d5ae5;
@@ -844,6 +843,13 @@ body {
   fill: #f4f4fd;
   border: none;
 }
+/* .checkbox-privacy-policy:checked
+  + .checkbox-agree-mini-container
+  > .heckbox-agree-icon {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
+} */
 /* .checkbox-input:focus
   + .checkbox-privacy-policy
   > .checkbox-agree-mini-container {
